@@ -1,0 +1,38 @@
+# PDF con la especificación del proyecto
+Proyecto_II_Bases_de_Datos_SQL_Server_Especificacion.pdf
+
+# PDF con el reparto del equipo y contratos de integración
+Proyecto II – Tienda Deportiva reparto y contratos de integración.pdf
+Proyecto II – Guía del equipo quién hace qué y cómo.pdf
+
+# Metadatos de Windows generados al copiar archivos en WSL
+*:Zone.Identifier
+*Zone.Identifier
+
+# Archivos de SQL Server (respaldos y archivos de datos)
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.trn
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporales y logs
+*.tmp
+*.log
+
+# Contexto local para Claude (no se comparte)
+CLAUDE.md
+
+# Script auxiliar local de la Persona 2 que genera sql/02_datos.sql
+sql/dev/generar_02_datos.py
